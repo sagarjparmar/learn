@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>file upload wp Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
           color:red;
       }
   </style>
-  <?php wp_enqueue_media(); ?>
+<?php wp_enqueue_media() ?>
 </head>
 <body>
 <?php
@@ -48,16 +48,8 @@
 <div class="container">
   <form action="#" id="frmPostotherpage">
     <div class="form-group">
-      <label for="name">Name for author:</label>
-      <input type="text" class="form-control" id="name" required placeholder="Enter Name" name="name">
-    </div>
-    <div class="form-group">
-      <label for="pwd">Email for author:</label>
-      <input type="email" class="form-control" id="email" required placeholder="Enter email" name="email">
-    </div>
-    <div class="form-group">
       <label for="img">Upload Image:</label>
-      <input type="button" class="form-control" id="img" required placeholder="Upload image" name="img">
+      <input type="button" class="form-control" id="btnImage" required placeholder="txtImage" name="Upload Image">
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>

@@ -20,3 +20,4 @@ jQuery("#frmPostotherpage").validate({
         })
     }
 })
+
